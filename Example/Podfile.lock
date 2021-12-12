@@ -1,0 +1,29 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KcSwizzleManage (0.1.0):
+    - KcSwizzleManage/Associations (= 0.1.0)
+  - KcSwizzleManage/Associations (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - KcSwizzleManage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KcSwizzleManage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KcSwizzleManage: a601ad593ed3c27754cc313ea86f0fa6628c4c2a
+
+PODFILE CHECKSUM: 8e324251cd84ea903bddbfb8ab62fb1f14b2c499
+
+COCOAPODS: 1.10.2
