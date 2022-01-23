@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KcSwizzleManage'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of KcSwizzleManage.'
 
 # This description is used to generate tags and improve search results.
@@ -43,11 +43,12 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.user_target_xcconfig = {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES",
       # OC环境, Preprocessor Macros去定义
-      "GCC_PREPROCESSOR_DEFINITIONS" => "KcSwizzleManage=1",
+#      "GCC_PREPROCESSOR_DEFINITIONS" => "KcSwizzleManage=1",
       # swift环境, 需要加上 -D
-#      "OTHER_SWIFT_FLAGS" => "-D KcSwizzleManage",
-      "SWIFT_ACTIVE_COMPILATION_CONDITIONS" => "KcSwizzleManage",
+      "OTHER_SWIFT_FLAGS" => "-D KcSwizzleManage",
+#      "SWIFT_ACTIVE_COMPILATION_CONDITIONS" => "KcSwizzleManage",
   }
   
   # hook 关联对象方法
