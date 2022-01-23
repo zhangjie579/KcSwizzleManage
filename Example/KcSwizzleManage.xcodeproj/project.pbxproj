@@ -14,7 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		67E879990D24E125292DA288 /* Pods_KcSwizzleManage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CF9D03CEFEE7EA44FB0F28 /* Pods_KcSwizzleManage_Example.framework */; };
-		699D4B69D5C3F5FC2D7DDED4 /* Pods_KcSwizzleManage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760561EC1A0EEF0823486510 /* Pods_KcSwizzleManage_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		102668EE3385DFA4BF6B716A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		132268AEBCCC2AD69B850696 /* Pods-KcSwizzleManage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KcSwizzleManage_Tests.release.xcconfig"; path = "Target Support Files/Pods-KcSwizzleManage_Tests/Pods-KcSwizzleManage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		102668EE3385DFA4BF6B716A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* KcSwizzleManage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KcSwizzleManage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +38,11 @@
 		607FACE51AFB9204008FA782 /* KcSwizzleManage_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KcSwizzleManage_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		760561EC1A0EEF0823486510 /* Pods_KcSwizzleManage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KcSwizzleManage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C18ED8D3C2C92EF1F4A571F /* Pods-KcSwizzleManage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KcSwizzleManage_Example.release.xcconfig"; path = "Target Support Files/Pods-KcSwizzleManage_Example/Pods-KcSwizzleManage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8038ED8C556954A3F2C42A42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8038ED8C556954A3F2C42A42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		85CF9D03CEFEE7EA44FB0F28 /* Pods_KcSwizzleManage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KcSwizzleManage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FA9F8C4D5123267D909942 /* Pods-KcSwizzleManage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KcSwizzleManage_Example.debug.xcconfig"; path = "Target Support Files/Pods-KcSwizzleManage_Example/Pods-KcSwizzleManage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A5A0D7375E0EC1F1BC63EC31 /* Pods-KcSwizzleManage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KcSwizzleManage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KcSwizzleManage_Tests/Pods-KcSwizzleManage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD5DFAA6F885F5D02A395064 /* KcSwizzleManage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KcSwizzleManage.podspec; path = ../KcSwizzleManage.podspec; sourceTree = "<group>"; };
+		FD5DFAA6F885F5D02A395064 /* KcSwizzleManage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KcSwizzleManage.podspec; path = ../KcSwizzleManage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699D4B69D5C3F5FC2D7DDED4 /* Pods_KcSwizzleManage_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				85CF9D03CEFEE7EA44FB0F28 /* Pods_KcSwizzleManage_Example.framework */,
-				760561EC1A0EEF0823486510 /* Pods_KcSwizzleManage_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,10 +147,7 @@
 			children = (
 				A4FA9F8C4D5123267D909942 /* Pods-KcSwizzleManage_Example.debug.xcconfig */,
 				7C18ED8D3C2C92EF1F4A571F /* Pods-KcSwizzleManage_Example.release.xcconfig */,
-				A5A0D7375E0EC1F1BC63EC31 /* Pods-KcSwizzleManage_Tests.debug.xcconfig */,
-				132268AEBCCC2AD69B850696 /* Pods-KcSwizzleManage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,11 +177,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "KcSwizzleManage_Tests" */;
 			buildPhases = (
-				14994D015D0E3CB2B1722304 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				4FA0F9F2D8B1689DFA7F9CBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +217,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,28 +253,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		14994D015D0E3CB2B1722304 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KcSwizzleManage_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2F5B8F68EA2A42557A6C7AC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,24 +275,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4FA0F9F2D8B1689DFA7F9CBA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KcSwizzleManage_Tests/Pods-KcSwizzleManage_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KcSwizzleManage_Tests/Pods-KcSwizzleManage_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E63106991A31DC8EC7D8C52 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,10 +283,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KcSwizzleManage_Example/Pods-KcSwizzleManage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KcSwizzleManage/KcSwizzleManage.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KcSwizzleManage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -503,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -518,13 +470,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A0D7375E0EC1F1BC63EC31 /* Pods-KcSwizzleManage_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -546,7 +497,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 132268AEBCCC2AD69B850696 /* Pods-KcSwizzleManage_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

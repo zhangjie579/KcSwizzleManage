@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://code.badam.mobi/zhangjie/kcswizzlemanage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   # swifty版本号
   s.swift_version = "5.0"
 
@@ -41,12 +41,24 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  
+
+  s.user_target_xcconfig = {
+      # OC环境, Preprocessor Macros去定义
+      "GCC_PREPROCESSOR_DEFINITIONS" => "KcSwizzleManage=1",
+      # swift环境, 需要加上 -D
+#      "OTHER_SWIFT_FLAGS" => "-D KcSwizzleManage",
+      "SWIFT_ACTIVE_COMPILATION_CONDITIONS" => "KcSwizzleManage",
+  }
   
   # hook 关联对象方法
   s.subspec 'Associations' do |ss|
       ss.source_files = 'KcSwizzleManage/Classes/Associations/**/*'
   end
   
+  # hook 关联对象方法
+  s.subspec 'Rx' do |ss|
+      ss.source_files = 'KcSwizzleManage/Classes/Rx/**/*'
+      ss.dependency "RxSwift"
+  end
   
 end

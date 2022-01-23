@@ -1,29 +1,27 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - KcSwizzleManage (0.1.0):
-    - KcSwizzleManage/Associations (= 0.1.0)
-  - KcSwizzleManage/Associations (0.1.0)
+  - KcSwizzleManage (0.0.1):
+    - KcSwizzleManage/Associations (= 0.0.1)
+    - KcSwizzleManage/Rx (= 0.0.1)
+  - KcSwizzleManage/Associations (0.0.1)
+  - KcSwizzleManage/Rx (0.0.1):
+    - RxSwift
+  - RxSwift (6.2.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - KcSwizzleManage (from `../`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
+    - RxSwift
 
 EXTERNAL SOURCES:
   KcSwizzleManage:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  KcSwizzleManage: a601ad593ed3c27754cc313ea86f0fa6628c4c2a
+  KcSwizzleManage: 583e187a3d75579f407835e7cc27c50abd268f58
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
 
-PODFILE CHECKSUM: 8e324251cd84ea903bddbfb8ab62fb1f14b2c499
+PODFILE CHECKSUM: 260b2d36b1aba5bbf0a85257e510904fc460bd26
 
 COCOAPODS: 1.10.2
